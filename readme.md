@@ -10,6 +10,20 @@ People Be Poopin'. People Be needing to know where to go to the bathroom. People
 
 For the backend, I will have a data model that will track the name of the location, location, cleanliness rating, and whether the location requires a purchase. Users will be able to add, update, delete, and show each location. 
 
+## Tech Used
+- asgiref==3.8.1
+- dj-database-url==2.1.
+- Django==5.0.3
+- django-cors-headers==4.3.1
+- django-environ==0.11.2
+- djangorestframework==3.15.1
+- gunicorn==21.2.0
+- packaging==24.0
+- psycopg2-binary==2.9.9
+- sqlparse==0.4.4
+- typing_extensions==4.10.0
+- tzdata==2024.1
+
 ## Backend Route Map
 
 | Route Name | Endpoint | Method | Description |
